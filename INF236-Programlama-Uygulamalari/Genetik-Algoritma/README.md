@@ -27,6 +27,8 @@ için mümkün yönlerden ) rastgele genler seçerek bireye hareket
 sağlayacak, yönlerden oluşan bir vektör oluştururuz. Bu vektör
 bireyin genotipidir.
 
+![image](https://user-images.githubusercontent.com/54884571/148621184-8482dff0-307a-4025-9105-e7977fe24a08.png)
+
 Bireyimizi oluşturduktan sonra sıra, popülasyon oluşturmaya gelir. Popülasyon oluşturulurken en
 iyinin hayatta kalma prensibiyle genetik operatörler kullanılır. Bu operatörler seçim, çaprazlama
 ve mutasyondan oluşmaktadır.
@@ -41,10 +43,16 @@ daha gelişmiş nesiller elde edilir. Yeni oluşan bireylere, popülasyon içind
 uygulanır. Bu işlemde bireyin bir ya da birkaç geninin yerimutasyon
 olasılığına bağlı olarak değiştirilir.
 
+![](https://user-images.githubusercontent.com/54884571/148621209-89974e7a-3073-499b-bb08-575ebb99bae5.png)
+
+![Atalar arasında gen değişimi](https://user-images.githubusercontent.com/54884571/148621226-5f5f6a36-3784-4909-aca4-3a1184ea2899.png)
+
+![Yeni bireylerin oluşumu](https://user-images.githubusercontent.com/54884571/148621235-ec8bb389-7b0e-4613-9313-8483dd439c57.png)
+
+![Mutasyon Gen Değişimi](https://user-images.githubusercontent.com/54884571/148621240-f6b93ade-d2ea-4f01-abed-6223cb4cb540.png)
+
 Daha sonrasında bu işlem istenen nesil kadar veya uygunluk değeri sürekli olarak sabit kalana
 kadar devam ettirilir. En sonda hayatta kalan birey, hedefe en kısa şekilde ulaşan bireydir.
-
-Atalar arasında gen değişimi Yeni bireylerin oluşumu Mutasyon Gen Değişimi
 
 ```
 Kaynakça
