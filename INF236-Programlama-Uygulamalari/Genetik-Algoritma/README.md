@@ -1,4 +1,6 @@
-**1) Tarihte Genetik Algoritma**
+# Genetik Algoritma
+
+## 1) Tarihte Genetik Algoritma
 
 Genetik algoritmaların temel ilkeleri ilk kez 1975 yılında Michigan Üniversitesi'ndeJohn Holland
 tarafından ortaya atılmıştır ve John Holland bu çalışmalarını“Adaptation in Natural and Artificial
@@ -13,7 +15,7 @@ Problemlere tek bir çözüm üretmek yerine her biri birbirinden tamamen bağı
 Böylelikle, arama uzayında aynı anda birçok nokta değerlendirilmekte ve sonuçta global çözüme
 ulaşma olasılığı yükselmektedir.
 
-**2) Genetik Algoritmayla En Kısa Yolu Bulma**
+## 2) Genetik Algoritmayla En Kısa Yolu Bulma
 
 En kısa yolu bulma genetik algoritmasını oluşturmak için, ilk önce bir nevi kromozom olan
 bireyleri ve daha sonrasında ise bu bireylerden bir popülasyon oluşturmamız gerekmektedir.
