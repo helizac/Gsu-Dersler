@@ -1,4 +1,4 @@
 # Galatasaray Üniversitesi Kodlama Dersleri
 
 ### INF236 - Programlama Uygulamaları
-### Algoritma ve İleri Programlama
+### ING 231 - Algoritma ve İleri Programlama
