@@ -7,3 +7,8 @@
 - Tahmin Önerisi Uygulaması
 
 ### ING 231 - Algoritma ve İleri Bilgisayar Programlama
+
+- Alıştırma 1
+- Alıştırma 2
+- Alıştırma 3
+- Alıştırma 4
