@@ -1,5 +1,11 @@
 # Galatasaray Üniversitesi Python Laboratuvarı
 
-### Programlama Uygulamaları
+## Programlama Uygulamaları
 
-Bu repository, Galatasaray Üniversitesi Programlama Uygulamaları dersi 21-22 yılı Python alıştırmalarını içermektedir.
+Bu dosya, Galatasaray Üniversitesi Programlama Uygulamaları dersi 21-22 yılı Python alıştırmalarını içermektedir.
+
+### İçindekiler
+
+- Alıştırmalar
+- Genetik Algoritma
+- Tahmin Önerisi Uygulaması
