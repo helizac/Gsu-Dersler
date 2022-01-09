@@ -6,7 +6,7 @@
    <p>The data in this picture consists of random lists with increasing number of elements in the list.<br></p>
    <div>
       <p float="left">
-         <img src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png" width=300>
+         <img align="left" src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png" width=300 hspace=20>
          <table>
             <thead>
                <tr>
