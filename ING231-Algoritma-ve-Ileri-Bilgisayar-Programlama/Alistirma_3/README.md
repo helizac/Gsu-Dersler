@@ -6,57 +6,59 @@
    <p>The data in this picture consists of random lists with increasing number of elements in the list.<br></p>
    <div align="center">
       <a><img src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png" width=400></a>
-      <table>
-         <thead>
-            <tr>
-               <th align="center">Algorithm</th>
-               <th align="center">Best Case</th>
-               <th align="center">Worst Case</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td align="center">Cocktail Sort</td>
-               <td align="center">O(n)</td>
-               <td align="center">O(n^2)</td>
-            </tr>
-            <tr>
-               <td align="center">Brick Sort</td>
-               <td align="center">O(n)</td>
-               <td align="center">O(n^2)</td>
-            </tr>
-             <tr>
-               <td align="center">Insertion Sort</td>
-               <td align="center">O(n)</td>
-               <td align="center">O(n^2)</td>
-            </tr>
-             <tr>
-               <td align="center">Count Sort</td>
-               <td align="center">O(n+k)</td>
-               <td align="center">O(n+k)</td>
-            </tr>
-             <tr>
-               <td align="center">Merge Sort</td>
-               <td align="center">O(nlog(n))</td>
-               <td align="center">O(nlog(n))</td>
-            </tr>
-             <tr>
-               <td align="center">Selection Sort</td>
-               <td align="center">O(n^2)</td>
-               <td align="center">O(n^2)</td>
-            </tr>
-             <tr>
-               <td align="center">Bubble Sort</td>
-               <td align="center">O(n)</td>
-               <td align="center">O(n^2)</td>
-            </tr>
-             <tr>
-               <td align="center">Quick Sort</td>
-               <td align="center">O(nlog(n))</td>
-               <td align="center">O(n^2)</td>
-            </tr>
-         </tbody>
-      </table>
+      <a>
+         <table>
+            <thead>
+               <tr>
+                  <th align="center">Algorithm</th>
+                  <th align="center">Best Case</th>
+                  <th align="center">Worst Case</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td align="center">Cocktail Sort</td>
+                  <td align="center">O(n)</td>
+                  <td align="center">O(n^2)</td>
+               </tr>
+               <tr>
+                  <td align="center">Brick Sort</td>
+                  <td align="center">O(n)</td>
+                  <td align="center">O(n^2)</td>
+               </tr>
+                <tr>
+                  <td align="center">Insertion Sort</td>
+                  <td align="center">O(n)</td>
+                  <td align="center">O(n^2)</td>
+               </tr>
+                <tr>
+                  <td align="center">Count Sort</td>
+                  <td align="center">O(n+k)</td>
+                  <td align="center">O(n+k)</td>
+               </tr>
+                <tr>
+                  <td align="center">Merge Sort</td>
+                  <td align="center">O(nlog(n))</td>
+                  <td align="center">O(nlog(n))</td>
+               </tr>
+                <tr>
+                  <td align="center">Selection Sort</td>
+                  <td align="center">O(n^2)</td>
+                  <td align="center">O(n^2)</td>
+               </tr>
+                <tr>
+                  <td align="center">Bubble Sort</td>
+                  <td align="center">O(n)</td>
+                  <td align="center">O(n^2)</td>
+               </tr>
+                <tr>
+                  <td align="center">Quick Sort</td>
+                  <td align="center">O(nlog(n))</td>
+                  <td align="center">O(n^2)</td>
+               </tr>
+            </tbody>
+         </table>
+      </a>
    </div>
 </div>
 
