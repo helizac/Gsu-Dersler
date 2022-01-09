@@ -55,13 +55,11 @@
                <td align="center">O(n^2)</td>
             </tr>
          </tbody>
-         <tfoot>
          <tr>
             <th>
                <img src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png">
             </th>
          <tr>
-      </tfoot>
       </table>
    </div>
 </div>
