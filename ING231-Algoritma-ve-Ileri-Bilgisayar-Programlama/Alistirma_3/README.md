@@ -9,6 +9,8 @@
 
 ## Sorting Algorithms
 
+<center>
+    
 | Algorithm      | Best Case  | Worst Case |
 |:----------------:|:------------:|:------------:|
 | Cocktail Sort  | O(n)       | O(n^2)     |
@@ -19,7 +21,9 @@
 | Selection Sort | O(n^2)     | O(n^2)     |
 | Bubble Sort    | O(n)       | O(n^2)     |
 | Quick Sort     | O(nlog(n)) | O(n^2)     |
-
+    
+</center>
+    
 ### Gnome Sort
 
 ```
