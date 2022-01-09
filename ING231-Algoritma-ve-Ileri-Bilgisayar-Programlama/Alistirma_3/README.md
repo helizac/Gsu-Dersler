@@ -3,7 +3,7 @@
 ## Comparisons of Algoritms
 
 <div align="center">
-   <p>The data in this picture consists of random lists with increasing number of elements in the list.<br></p>
+   <p>The data in this picture consists of random lists with increasing number of elements in the list.<br> You can access the comparison lists <a href="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Comparison%20List%20Datas.txt">here</a></p>
    <div>
       <p align="center">
          <img align="left" src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithm%20Comparison.png" width=450 hspace=50>
