@@ -5,41 +5,58 @@
 <div align="center">
 <p>The data in this picture consists of random lists with increasing number of elements in the list.<br></p>
 <img src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png">
-</div>
-
-## Sorting Algorithms
-
-<center>
-    
-| Algorithm      | Best Case  | Worst Case |
-|:----------------:|:------------:|:------------:|
-| Cocktail Sort  | O(n)       | O(n^2)     |
-| Brick Sort     | O(N)       | O(n^2)     |
-| Insertion Sort | O(n)       | O(n^2)     |
-| Count Sort     | O(n+k)     | O(n+k)     |
-| Merge Sort     | O(nlog(n)) | O(nlog(n)) |
-| Selection Sort | O(n^2)     | O(n^2)     |
-| Bubble Sort    | O(n)       | O(n^2)     |
-| Quick Sort     | O(nlog(n)) | O(n^2)     |
-    
-</center>
-    
 <table>
    <thead>
       <tr>
-         <th align="left">Column1</th>
-         <th align="center">Column1</th>
-         <th align="right">Column1</th>
+         <th align="center">Algorithm</th>
+         <th align="center">Best Case</th>
+         <th align="center">Worst Case</th>
       </tr>
    </thead>
    <tbody>
       <tr>
-         <td align="left">Column1</td>
-         <td align="center">Column1</td>
-         <td align="right">Column1</td>
+         <td align="center">Cocktail Sort</td>
+         <td align="center">O(n)</td>
+         <td align="center">O(n^2)</td>
+      </tr>
+      <tr>
+         <td align="center">Brick Sort</td>
+         <td align="center">O(n)</td>
+         <td align="center">O(n^2)</td>
+      </tr>
+       <tr>
+         <td align="center">Insertion Sort</td>
+         <td align="center">O(n)</td>
+         <td align="center">O(n^2)</td>
+      </tr>
+       <tr>
+         <td align="center">Count Sort</td>
+         <td align="center">O(n+k)</td>
+         <td align="center">O(n+k)</td>
+      </tr>
+       <tr>
+         <td align="center">Merge Sort</td>
+         <td align="center">O(nlog(n))</td>
+         <td align="center">O(nlog(n))</td>
+      </tr>
+       <tr>
+         <td align="center">Selection Sort</td>
+         <td align="center">O(n^2)</td>
+         <td align="center">O(n^2)</td>
+      </tr>
+       <tr>
+         <td align="center">Bubble Sort</td>
+         <td align="center">O(n)</td>
+         <td align="center">O(n^2)</td>
+      </tr>
+       <tr>
+         <td align="center">Quick Sort</td>
+         <td align="center">O(nlog(n))</td>
+         <td align="center">O(n^2)</td>
       </tr>
    </tbody>
 </table>
+</div>
 
 ### Gnome Sort
 
