@@ -62,75 +62,6 @@
    </div>
 </div>
 
-### Gnome Sort
-
-```
-def gnome_sort(_list: list):
-    pos = 0
-    while pos < len(_list):
-        if pos == 0 or _list[pos] >= _list[pos - 1]:
-            pos += 1
-        else:
-            _list[pos], _list[pos - 1] = _list[pos - 1], _list[pos]
-            pos -= 1
-
-    return _list
-```
-
-### Insertion Sort
-```
-def insertion_sort(_list: list):
-    for i in range(1, len(_list)):
-        key = _list[i]
-        j = i - 1
-
-        while j >= 0 and key < _list[j]:
-            _list[j + 1] = _list[j]
-            j -= 1
-        _list[j + 1] = key
-
-    return _list
-```
-
-### Selection Sort
-```
-def selection_sort(_list: list):
-    for i in range(len(_list)):
-        for j in range(i + 1, len(_list)):
-            if _list[j] < _list[i]:
-                _list[i], _list[j] = _list[j], _list[i]
-
-    return _list
-```
-
-### Counting Sort
-```
-def counting_sort(_list: list):
-    c = [0] * (max(_list) + 1)
-    output = []
-
-    for i in _list:
-        c[i] += 1
-
-    for i in range(1, len(c)):
-        c[i] += c[i - 1]
-
-    for i in range(1, len(c)):
-        if c[i] != c[i - 1]: output.append(i)
-
-    return output
-```
-
-### Bubble Sort
-```
-def bubble_sort(_list: list):
-    for i in range(len(_list)):
-        for j in range(len(_list) - i - 1):
-            if _list[j] > _list[j + 1]:
-                _list[j], _list[j + 1] = _list[j + 1], _list[j]
-
-    return _list
-```
 
 ### Cocktail Sort
 ```
@@ -182,28 +113,38 @@ def brick_sort(_list: list):
     return _list
 ```
 
-### Quick Sort
+### Insertion Sort
 ```
-def quick_sort(_list):
-    def sort(_list, low, high):
-        if len(_list) == 1:
-            return _list
-        if low < high:
-            i = (low - 1)
+def insertion_sort(_list: list):
+    for i in range(1, len(_list)):
+        key = _list[i]
+        j = i - 1
 
-            for j in range(low, high):
-                if _list[j] <= _list[high]:
-                    i = i + 1
-                    _list[i], _list[j] = _list[j], _list[i]
+        while j >= 0 and key < _list[j]:
+            _list[j + 1] = _list[j]
+            j -= 1
+        _list[j + 1] = key
 
-            _list[i + 1], _list[high] = _list[high], _list[i + 1]
-            i += 1
+    return _list
+```
 
-            sort(_list, low, i - 1)
-            sort(_list, i + 1, high)
-        return _list
 
-    return sort(_list, 0, len(_list) - 1)
+### Counting Sort
+```
+def counting_sort(_list: list):
+    c = [0] * (max(_list) + 1)
+    output = []
+
+    for i in _list:
+        c[i] += 1
+
+    for i in range(1, len(c)):
+        c[i] += c[i - 1]
+
+    for i in range(1, len(c)):
+        if c[i] != c[i - 1]: output.append(i)
+
+    return output
 ```
 
 ### Merge Sort
@@ -232,4 +173,65 @@ def merge_sort(_list):
     output.extend(right_partition[j:])
 
     return output
+```
+### Selection Sort
+```
+def selection_sort(_list: list):
+    for i in range(len(_list)):
+        for j in range(i + 1, len(_list)):
+            if _list[j] < _list[i]:
+                _list[i], _list[j] = _list[j], _list[i]
+
+    return _list
+```
+
+### Bubble Sort
+```
+def bubble_sort(_list: list):
+    for i in range(len(_list)):
+        for j in range(len(_list) - i - 1):
+            if _list[j] > _list[j + 1]:
+                _list[j], _list[j + 1] = _list[j + 1], _list[j]
+
+    return _list
+```
+
+### Quick Sort
+```
+def quick_sort(_list):
+    def sort(_list, low, high):
+        if len(_list) == 1:
+            return _list
+        if low < high:
+            i = (low - 1)
+
+            for j in range(low, high):
+                if _list[j] <= _list[high]:
+                    i = i + 1
+                    _list[i], _list[j] = _list[j], _list[i]
+
+            _list[i + 1], _list[high] = _list[high], _list[i + 1]
+            i += 1
+
+            sort(_list, low, i - 1)
+            sort(_list, i + 1, high)
+        return _list
+
+    return sort(_list, 0, len(_list) - 1)
+```
+
+
+### Gnome Sort
+
+```
+def gnome_sort(_list: list):
+    pos = 0
+    while pos < len(_list):
+        if pos == 0 or _list[pos] >= _list[pos - 1]:
+            pos += 1
+        else:
+            _list[pos], _list[pos - 1] = _list[pos - 1], _list[pos]
+            pos -= 1
+
+    return _list
 ```
