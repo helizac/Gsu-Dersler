@@ -4,8 +4,8 @@
 
 <div align="center">
    <p>The data in this picture consists of random lists with increasing number of elements in the list.<br></p>
-   <div display="flex">
-      <a><img src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png"></a>
+   <div display="flex" flex-direction="row">
+      <a><img src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png" width=400></a>
       <table>
          <thead>
             <tr>
