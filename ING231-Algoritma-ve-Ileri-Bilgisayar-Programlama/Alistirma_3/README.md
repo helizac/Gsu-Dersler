@@ -2,7 +2,7 @@
 
 ## Comparisons of Algoritms
 
-<div align="center">
+<div>
    <p>The data in this picture consists of random lists with increasing number of elements in the list.<br></p>
    <div>
       <p float="left">
