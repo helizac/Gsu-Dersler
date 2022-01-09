@@ -6,11 +6,6 @@
    <p>The data in this picture consists of random lists with increasing number of elements in the list.<br></p>
    <div>
       <table>
-         <tr>
-            <img src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png" width=400>
-         <tr>
-      </table>
-      <table>
          <thead>
             <tr>
                <th align="center">Algorithm</th>
@@ -60,6 +55,13 @@
                <td align="center">O(n^2)</td>
             </tr>
          </tbody>
+         <tfoot>
+         <tr>
+            <th>
+               <img src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png" width=400>
+            </th>
+         <tr>
+      </tfoot>
       </table>
    </div>
 </div>
