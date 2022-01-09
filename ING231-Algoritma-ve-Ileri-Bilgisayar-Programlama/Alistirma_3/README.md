@@ -5,10 +5,20 @@
 <div align="center">
 <p>The data in this picture consists of random lists with increasing number of elements in the list.<br></p>
 <img src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png">
-
 </div>
 
 ## Sorting Algorithms
+
+| Algorithm      | Best Case  | Worst Case |
+|----------------|------------|------------|
+| Cocktail Sort  | O(n)       | O(n^2)     |
+| Brick Sort     | O(N)       | O(n^2)     |
+| Insertion Sort | O(n)       | O(n^2)     |
+| Count Sort     | O(n+k)     | O(n+k)     |
+| Merge Sort     | O(nlog(n)) | O(nlog(n)) |
+| Selection Sort | O(n^2)     | O(n^2)     |
+| Bubble Sort    | O(n)       | O(n^2)     |
+| Quick Sort     | O(nlog(n)) | O(n^2)     |
 
 ### Gnome Sort
 
