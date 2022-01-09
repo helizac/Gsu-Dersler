@@ -10,7 +10,7 @@
 ## Sorting Algorithms
 
 | Algorithm      | Best Case  | Worst Case |
-|----------------|------------|------------|
+|:----------------:|:------------:|:------------:|
 | Cocktail Sort  | O(n)       | O(n^2)     |
 | Brick Sort     | O(N)       | O(n^2)     |
 | Insertion Sort | O(n)       | O(n^2)     |
