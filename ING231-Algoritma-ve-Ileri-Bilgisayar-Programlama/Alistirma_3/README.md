@@ -8,14 +8,7 @@ The data in this picture consists of random lists with increasing number of elem
 
 ## Sorting Algorithms
 
-### Requirements
-```
-import random
-from timeit import default_timer as timer
-import matplotlib.pyplot as plt
-```
-
-#### Gnome Sort
+### Gnome Sort
 
 ```
 def gnome_sort(_list: list):
@@ -30,7 +23,7 @@ def gnome_sort(_list: list):
     return _list
 ```
 
-#### Insertion Sort
+### Insertion Sort
 ```
 def insertion_sort(_list: list):
     for i in range(1, len(_list)):
@@ -45,7 +38,7 @@ def insertion_sort(_list: list):
     return _list
 ```
 
-#### Selection Sort
+### Selection Sort
 ```
 def selection_sort(_list: list):
     for i in range(len(_list)):
@@ -56,7 +49,7 @@ def selection_sort(_list: list):
     return _list
 ```
 
-#### Counting Sort
+### Counting Sort
 ```
 def counting_sort(_list: list):
     c = [0] * (max(_list) + 1)
@@ -74,7 +67,7 @@ def counting_sort(_list: list):
     return output
 ```
 
-#### Bubble Sort
+### Bubble Sort
 ```
 def bubble_sort(_list: list):
     for i in range(len(_list)):
@@ -85,7 +78,7 @@ def bubble_sort(_list: list):
     return _list
 ```
 
-#### Cocktail Sort
+### Cocktail Sort
 ```
 def cocktail_sort(_list: list):
     swapped = True
@@ -116,7 +109,7 @@ def cocktail_sort(_list: list):
     return _list
 ```
 
-#### Brick Sort
+### Brick Sort
 ```
 def brick_sort(_list: list):
     isSorted = False
@@ -135,7 +128,7 @@ def brick_sort(_list: list):
     return _list
 ```
 
-#### Quick Sort
+### Quick Sort
 ```
 def quick_sort(_list):
     def sort(_list, low, high):
@@ -159,7 +152,7 @@ def quick_sort(_list):
     return sort(_list, 0, len(_list) - 1)
 ```
 
-#### Merge Sort
+### Merge Sort
 ```
 def merge_sort(_list):
     list_length = len(_list)
