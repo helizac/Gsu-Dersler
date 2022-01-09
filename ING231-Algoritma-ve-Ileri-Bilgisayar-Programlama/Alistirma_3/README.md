@@ -7,7 +7,6 @@
    <div>
       <p float="left">
          <img src="https://github.com/helizac/Gsu-Dersler/blob/main/ING231-Algoritma-ve-Ileri-Bilgisayar-Programlama/Alistirma_3/Sorting%20Algorithms.png" width=300>
-      </p>
       <table>
          <thead>
             <tr>
@@ -59,6 +58,7 @@
             </tr>
          </tbody>
       </table>
+      </p>
    </div>
 </div>
 
