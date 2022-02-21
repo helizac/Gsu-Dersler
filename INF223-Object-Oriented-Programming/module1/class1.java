@@ -1,6 +1,6 @@
 /*
 
-Java Fields of Usage
+Java - Fields of Usage
 
     -> Console Programs
     -> Applex
