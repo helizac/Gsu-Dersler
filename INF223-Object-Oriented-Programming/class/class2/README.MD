@@ -31,21 +31,21 @@ Constructors can be overloaded. 2^n constructors can be written for n object pro
 
 ```java
 public class yaziYazma {
-    public void yaziYaz(String s){
+    public void write(String s){
         System.out.println(s);
     }
 
     /*
-    public String yaziYaz(int n){
+    public String write(int n){
         return String.valueOf(n);
     }
     If we remove this method from the comment line, Java will throw an error because the name and parameters of the method below are the same.
      */
 
-    public void yaziYaz(int n){
+    public void write(int n){
         System.out.println(n);
     }
-    public void yaziYaz(String s, int n){
+    public void write(String s, int n){
         System.out.println(s+n);
     }
 }
