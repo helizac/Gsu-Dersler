@@ -30,7 +30,7 @@ Static methods can be overloaded.
 Constructors can be overloaded. 2^n constructors can be written for n object properties.
 
 ```java
-public class yaziYazma {
+public class write {
     public void write(String s){
         System.out.println(s);
     }
