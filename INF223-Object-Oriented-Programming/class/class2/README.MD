@@ -29,7 +29,7 @@ Static metotlar overload edilebilir.
 
 Constructor'lar overload edilebilir. n adet nesne özelliği için 2^n adet constructor yazılabilir.
 
-```
+```java
 public class yaziYazma {
     public void yaziYaz(String s){
         System.out.println(s);
