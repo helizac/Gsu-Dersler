@@ -21,13 +21,13 @@
 ## Overloading
 <hr>
 
-İsmi aynı olan ancak parametre türü ve sırası farklı olan metot yazabilme kabiliyetidir.
+Overloading is the ability to write a method with the same name but different parameter type and order.
 
-Normal metotların overload edilmesi genelde tavsiye edilir, bu durum class'ın kullanılabilirliğini arttırır.
+It is generally recommended to overload normal methods, which increases the usability of the class.
 
-Static metotlar overload edilebilir.
+Static methods can be overloaded.
 
-Constructor'lar overload edilebilir. n adet nesne özelliği için 2^n adet constructor yazılabilir.
+Constructors can be overloaded. 2^n constructors can be written for n object properties.
 
 ```java
 public class yaziYazma {
@@ -39,7 +39,7 @@ public class yaziYazma {
     public String yaziYaz(int n){
         return String.valueOf(n);
     }
-    Bu metodu yorum satırından çıkartırsak, Java aşağıdaki metotla ismi ve parametreleri aynı olduğu için hata verecektir.
+    If we remove this method from the comment line, Java will throw an error because the name and parameters of the method below are the same.
      */
 
     public void yaziYaz(int n){
