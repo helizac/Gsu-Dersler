@@ -6,8 +6,8 @@ Create a simple application that prints whether the input is a prime number or n
   
   <div>
       <div>
-        <p float="left">Exemple 1</p>
-        <p float="right">Exemple 2</p>
+        <a float="left">Exemple 1</a>
+        <a float="right">Exemple 2</a>
       </div>
       <div>
         <img src="https://user-images.githubusercontent.com/54884571/156936893-0e6bf934-2719-42c3-b6f2-0bcac652d380.gif" height="200" float="left"/>
