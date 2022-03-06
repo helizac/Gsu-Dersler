@@ -6,7 +6,8 @@ Create a simple application that prints whether the input is a prime number or n
   <div>
       <div>
         <a>Exemple 1</a>
-        <img src="https://user-images.githubusercontent.com/54884571/156936893-0e6bf934-2719-42c3-b6f2-0bcac652d380.gif" height="200"/>
+        <img class="static" src="https://user-images.githubusercontent.com/54884571/156937569-2265af53-99f3-4113-98c9-fe2301f9e0d4.png" style=".static {position:absolute; background: white;} .static:hover {opacity:0;}"/>
+        <img class="active" src="https://user-images.githubusercontent.com/54884571/156936893-0e6bf934-2719-42c3-b6f2-0bcac652d380.gif" height="200"/>
       </div>
       <div>
         <a>Exemple 2</a>
