@@ -2,6 +2,12 @@
 
 Example 1 --> Create a simple application that prints whether the input is a prime number or not.
 
+Example 2 --> Create a simple app that changes the background to the color of the button when the buttons are pressed.
+
+Example 3 --> Create a simple application that converts Turkish Lira to Dollars and Dollars to Turkish Liras.
+
+Example 4 --> Create an Application with a "HELLO" text that moves. If text reaches the corner of the screen, make it moves in to the other corner.
+
 <table>
   <tr>
     <td><video src="https://user-images.githubusercontent.com/54884571/156938210-518e6445-8b54-4b56-900a-4d2bd2352179.mp4"></video></td>
