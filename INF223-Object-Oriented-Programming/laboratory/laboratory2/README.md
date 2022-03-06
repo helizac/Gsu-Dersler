@@ -1,6 +1,6 @@
-## Example 1
+## Laboratory 2
 
-Create a simple application that prints whether the input is a prime number or not.
+Example 1 --> Create a simple application that prints whether the input is a prime number or not.
 
 <table>
   <tr>
