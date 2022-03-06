@@ -5,11 +5,11 @@ Create a simple application that prints whether the input is a prime number or n
 <div>
   
   <div>
-      <div min-width="%100">
+      <div>
         <a>Exemple 1</a>
         <img src="https://user-images.githubusercontent.com/54884571/156936893-0e6bf934-2719-42c3-b6f2-0bcac652d380.gif" height="200"/>
-        
       </div>
+    
       <div>
         <a>Exemple 2</a>
         <img src="https://user-images.githubusercontent.com/54884571/156936895-543019b7-7fc5-4af8-ac90-939779031dba.gif" height="200"/>
