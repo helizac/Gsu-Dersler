@@ -5,7 +5,7 @@ Create a simple application that prints whether the input is a prime number or n
 <div>
   
   <div>
-      <div width="%100">
+      <div min-width="%100">
         <a float="left">Exemple 1</a>
         <a float="right">Exemple 2</a>
       </div>
