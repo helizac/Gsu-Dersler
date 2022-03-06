@@ -4,7 +4,7 @@ Create a simple application that prints whether the input is a prime number or n
 
 <table>
   <tr>
-    <td>https://user-images.githubusercontent.com/54884571/156938210-518e6445-8b54-4b56-900a-4d2bd2352179.mp4</td>
+    <td><video src="https://user-images.githubusercontent.com/54884571/156938210-518e6445-8b54-4b56-900a-4d2bd2352179.mp4"></video></td>
 
     <td></td>
    </tr> 
