@@ -9,8 +9,3 @@
 - We get the chance to develop the project based on classes that are in better condition.
 - Inheritance is mandatory for polymorphism.
 - It makes updating and upgrading the project very easy.
-
-
-```java
-
-```
