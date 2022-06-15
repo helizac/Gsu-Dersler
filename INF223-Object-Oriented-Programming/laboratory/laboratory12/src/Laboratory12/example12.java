@@ -177,3 +177,4 @@ public class example12 implements WindowListener, ActionListener{
 
 }
  
+// Soft wrap
